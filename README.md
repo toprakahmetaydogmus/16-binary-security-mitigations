@@ -1,25 +1,27 @@
-# Binary Security Mitigations & Secure Coding Lab
+# ⚙️ Binary Security Mitigations & Secure Coding Lab
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/16-binary-security-mitigations?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/16-binary-security-mitigations/releases)
-[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI Quality Gate](https://github.com/toprakahmetaydogmus/16-binary-security-mitigations/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/16-binary-security-mitigations/actions)
-[![Binary](https://img.shields.io/badge/Security-ASLR%20%7C%20Canary%20%7C%20NX-darkgreen.svg)](#)
 
-Geliştirici: **Toprak Ahmet Aydoğmuş**
-
-Bellek taşması (Buffer Overflow) zafiyetlerine karşı Stack Canaries, NX/DEP, PIE/ASLR ve sınır denetimli güvenli C kodlama laboratuvarı.
+Developer: **Toprak Ahmet Aydoğmuş**
 
 ---
 
-## ⚡ Hızlı Başlangıç
+## 🎯 1. Overview
+ELF binary mitigation analysis tool checking Stack Canaries, NX (No-Execute), Position Independent Executables (PIE), Full/Partial RELRO, Fortify Source, and ASLR compatibility across compiled executables and shared libraries.
+
+---
+
+## 🚀 2. Quick Start
 
 ```bash
 git clone https://github.com/toprakahmetaydogmus/16-binary-security-mitigations.git
 cd 16-binary-security-mitigations
+python -m unittest discover tests/
 ```
 
 ---
 
-## 📜 Lisans
-MIT License - **Toprak Ahmet Aydoğmuş**
+## 📜 3. License
+Licensed under the [MIT License](LICENSE).  
+Developer: **Toprak Ahmet Aydoğmuş**.
